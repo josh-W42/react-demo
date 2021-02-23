@@ -3,7 +3,8 @@ import './App.css';
 import People from './People';
 import Place from './Place';
 
-
+// so these are FUNCTIONAL components, meaning that they are functions
+// that can be called that have similar functionality to class components.
 function App() {
   return (
     <div className="App">
@@ -14,8 +15,6 @@ function App() {
         </p>
           Learn react
         <People person="Josh" />
-        <People person="Billy" />
-        <People person="Trey" />
         <Place place="Home" />
       </header>
     </div>

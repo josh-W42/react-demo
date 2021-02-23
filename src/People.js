@@ -2,7 +2,7 @@
 function People(props) {
     return (
         <div className="people">
-            <h1>Hello World, I'm a {props.person}.</h1>
+            <h1>Hi my name is, {props.person}.</h1>
         </div>
     );
 }
